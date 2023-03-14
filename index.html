@@ -117,19 +117,22 @@
             <p>Book a Table</p>
           </div>
           <div class="reservations__form">
-            <div class="form__fieldset">
-              <label class="form__label" for="name">Name *</label>
+            <div class="form__fieldset reservations__form">
+              <label class="form__label reservations__form" for="name"
+                >Name *</label
+              >
               <input
                 class="form__input"
                 type="text"
                 id="name"
-                placeholder="Name &nbsp;
-              Surname"
+                placeholder="NameSurname"
                 required
               />
-              <label class="form__label" for="number">Number of guests *</label>
+              <label class="form__label reservations__form" for="number"
+                >Number of guests *</label
+              >
               <input
-                class="form__input"
+                class="form__input reservations__form"
                 type="number"
                 min="1"
                 max="8"
@@ -153,12 +156,11 @@
               <input class="button" type="submit" id="submit" />
             </div>
             <div class="form__checkbox">
-              <label class="checkbox_label">
+              <div class="checkbox_label">
                 <input type="checkbox" id="terms" required />
-                <label class="form__label" for="terms"
-                  >I agree with the terms of use</label
-                >
-              </label>
+                <label class="form__label" for="terms"></label>
+                I agree with the terms of use
+              </div>
             </div>
           </div>
         </section>
