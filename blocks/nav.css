@@ -1,0 +1,19 @@
+.nav {
+  padding-left: 30px;
+  padding-right: 80px;
+}
+
+.nav__links {
+  column-gap: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
