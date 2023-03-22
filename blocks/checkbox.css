@@ -1,3 +1,9 @@
 .checkbox-label {
   justify-content: center;
 }
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
