@@ -1,11 +1,17 @@
-.card-title {
+.card {
+  width: 540px;
+}
+
+.card__title {
   font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  width: 540px;
 }
 
+.card__list {
+  padding: 0;
+}
 .card__list-item {
   padding-bottom: 16px;
   font-family: "Noto Serif", "Times New Roman", serif;

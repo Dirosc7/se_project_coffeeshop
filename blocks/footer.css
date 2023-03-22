@@ -35,8 +35,12 @@
   margin: 0px;
 }
 
+.footer__list {
+  padding: 0;
+}
 .footer__list-item {
   padding-bottom: 16px;
+  list-style: none;
 }
 
 .footer__list-item:hover {
@@ -53,6 +57,13 @@
   height: 16px;
   width: 16px;
   padding-right: 10px;
+}
+
+.footer__social-link {
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__copyright {
