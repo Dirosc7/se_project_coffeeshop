@@ -16,35 +16,3 @@
   opacity: 70%;
   transition-duration: 0.4s;
 }
-
-.fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 385px;
-  margin: auto;
-  border: none;
-}
-
-.label {
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  padding-top: 32px;
-  padding-bottom: 8px;
-}
-
-.label:first-of-type {
-  padding-top: 0px;
-}
-
-.input {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
-  border-radius: 4px;
-  max-width: 385px;
-  height: 60px;
-}
