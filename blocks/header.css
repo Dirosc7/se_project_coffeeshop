@@ -10,14 +10,6 @@
   padding-top: 30px;
 }
 
-.logo {
-  position: absolute;
-  left: 30px;
-  top: 30px;
-  height: 125px;
-  width: 142px;
-}
-
 .header__title {
   max-width: 729px;
   padding-left: 80px;
