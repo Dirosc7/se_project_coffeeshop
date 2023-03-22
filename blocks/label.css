@@ -10,13 +10,3 @@
 .label:first-of-type {
   padding-top: 0px;
 }
-
-.input {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
-  border-radius: 4px;
-  max-width: 385px;
-  height: 60px;
-}
