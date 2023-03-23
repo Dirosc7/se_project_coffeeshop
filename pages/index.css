@@ -33,4 +33,4 @@
 
 @import url(../blocks/input.css;);
 
-url(../vendor/normalize.css);
+@import url(../vendor/normalize.css);
