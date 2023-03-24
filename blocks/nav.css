@@ -9,7 +9,7 @@
   list-style: none;
   justify-content: flex-end;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
 }
 

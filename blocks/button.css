@@ -1,4 +1,4 @@
-.button {
+.form__button_button {
   background-color: #2f80ed;
   height: 60px;
   color: #ffffff;
@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.button:hover {
+.form__button_button:hover {
   opacity: 70%;
   transition-duration: 0.4s;
 }

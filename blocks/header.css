@@ -2,12 +2,12 @@
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
   box-sizing: border-box;
-  min-height: 770px;
-  max-height: 800px;
   padding-top: 30px;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .header__title {
@@ -47,8 +47,8 @@
 }
 
 .header__image {
-  height: 548px;
-  width: 646x;
+  height: 568px;
+  width: 646px;
   position: absolute;
   top: 124px;
   right: 5px;
@@ -57,20 +57,17 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
+  align-items: last baseline;
   padding-left: 80px;
   padding-right: 80px;
-  align-items: last baseline;
   position: relative;
-  top: 200px;
 }
-p {
-  margin: 0px;
-}
-.header-paragraph {
+
+.header__paragraph {
   color: #838383;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  list-style: none;
+  margin: 0;
 }
