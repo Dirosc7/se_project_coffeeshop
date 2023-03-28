@@ -1,11 +1,24 @@
 .form__button {
-  padding-top: 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   border-radius: 4px;
   border: none;
+  background-color: #2f80ed;
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 385px;
+  height: 60px;
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.form__button:hover {
+  opacity: 70%;
+  transition-duration: 0.4s;
 }
 
 .form__checkbox {
@@ -25,6 +38,7 @@
   margin: auto;
   border: none;
   padding: 0;
+  padding-bottom: 32px;
 }
 
 .form__input {
