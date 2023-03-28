@@ -8,6 +8,7 @@
   padding-top: 30px;
   min-height: 720px;
   max-height: 800px;
+  position: relative;
 }
 
 .header__title {
@@ -44,6 +45,7 @@
   line-height: 30px;
   position: relative;
   z-index: 1;
+  margin: 0px;
 }
 
 .header__image {
@@ -58,9 +60,10 @@
   display: flex;
   justify-content: space-between;
   align-items: last baseline;
-  padding-left: 80px;
-  padding-right: 80px;
-  position: relative;
+  left: 80px;
+  right: 80px;
+  position: absolute;
+  bottom: 40px;
 }
 
 .header__paragraph {

@@ -1,9 +1,0 @@
-.form__fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 385px;
-  margin: auto;
-  border: none;
-  padding: 0;
-}
