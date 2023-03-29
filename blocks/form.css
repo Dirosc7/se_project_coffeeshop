@@ -9,6 +9,17 @@
   padding-bottom: 32px;
 }
 
+.form__fieldset.form__fieldset_checkbox {
+  border: red solid 1px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  padding-bottom: 120px;
+  justify-self: center;
+  margin: auto;
+}
+
 .form__input {
   font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
@@ -57,13 +68,9 @@
 }
 
 .form__fieldset_checkbox {
-  padding-top: 32px;
-  border-radius: 2px;
-  display: flex;
   border: none;
-  padding-bottom: 120px;
-  justify-content: center;
   margin-right: 12px;
+  margin-left: 0;
   min-height: 20px;
   min-width: 20px;
 }
