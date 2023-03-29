@@ -10,7 +10,7 @@
 }
 
 .form__fieldset.form__fieldset_checkbox {
-  border: red solid 1px;
+  border: none;
   border-radius: 2px;
   display: flex;
   flex-direction: row;
