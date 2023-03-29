@@ -1,4 +1,4 @@
-.fieldset__button {
+.form__fieldset_button {
   margin: auto;
   border-radius: 4px;
   border: none;
@@ -16,12 +16,12 @@
   vertical-align: middle;
 }
 
-.fieldset__button:hover {
+.form__fieldset_button:hover {
   opacity: 70%;
   transition-duration: 0.4s;
 }
 
-.fieldset__checkbox {
+.form__fieldset_checkbox {
   padding-top: 32px;
   border-radius: 2px;
   display: flex;
