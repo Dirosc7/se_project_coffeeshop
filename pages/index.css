@@ -12,12 +12,6 @@
 
 @import url(../blocks/form.css);
 
-@import url(../blocks/button.css);
-
-@import url(../blocks/checkbox.css);
-
-@import url(../blocks/logo.css);
-
 @import url(../blocks/about.css);
 
 @import url(../blocks/menu.css);
@@ -26,6 +20,6 @@
 
 @import url(../blocks/footer.css);
 
-@import url(../blocks/fieldset.css);
+@import url(../favicon_coffee_bean.ico);
 
-@import url(../blocks/label.css);
+@import url(../blocks/logo.css);
